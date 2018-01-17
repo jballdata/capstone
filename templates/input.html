@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Stock Display</title>
+<!--link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'-->
+<div class=page>
+
+	<h1>Input the stock ticker</h1>
+	<div class=metanav>
+
+    		{{question}}
+
+    		<h4>
+      			<form id='answerform_lulu' method='post' action='next_lulu' >
+        			<p>
+          				Answer: <br />
+					Choose stock ticker ID:
+          				<input type='text' name='input_ticker'/>
+					Choose start date (format: yyyy-mm-dd):
+					<input type='text' name='input_start'/>
+					Choose end date (format: yyyy-mm-dd):
+					<input type='text' name='input_end'/>
+        </p>
+
+        <p>
+          <input type='submit' value='NextButton_lulu' />
+        </p>
+      </form>
+    </h4>
+  </div>
+</div>
