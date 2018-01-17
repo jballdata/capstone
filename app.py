@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.vars={}
 #test
 
-@app.route('/milestone/',methods=['GET','POST'])
+@app.route('/',methods=['GET','POST'])
 def index():
 	if request.method == 'GET':
 		return render_template('input.html')
@@ -24,6 +24,12 @@ def index():
 		p = figure(title="Stock Information", x_axis_label = "Date", x_axis_type = 'datetime', y_axis_label = "Value")
 		p.line(data.index.values.tolist(),data['Open'].values.tolist(),legend = "line",line_width = 2,line_color = "blue")
 		p.line(data.index.values.tolist(),data['Close'].values.tolist(),legend = "line",line_width = 2,line_color = "red")
+		
+@app.route('/Alabama',methods=['GET'])
+def index():
+	if request.method == 'GET':
+		return render_template('input.html')
 
+		
 if __name__ == '__main__':
   app.run(port=33507, debug = True)
