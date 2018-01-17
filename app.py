@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.vars={}
 #test
 
-@app.route('/milestone',methods=['GET','POST'])
+@app.route('',methods=['GET','POST'])
 def index():
 	if request.method == 'GET':
 		return render_template('input.html')
