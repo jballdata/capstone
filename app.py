@@ -28,7 +28,7 @@ def index():
 @app.route('/Alabama',methods=['GET'])
 def index():
 	if request.method == 'GET':
-		return render_template('input.html')
+		return render_template('index.html')
 
 		
 if __name__ == '__main__':
