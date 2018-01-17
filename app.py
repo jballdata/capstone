@@ -25,10 +25,13 @@ def index():
 		p.line(data.index.values.tolist(),data['Open'].values.tolist(),legend = "line",line_width = 2,line_color = "blue")
 		p.line(data.index.values.tolist(),data['Close'].values.tolist(),legend = "line",line_width = 2,line_color = "red")
 		
-@app.route('/Alabama',methods=['GET'])
+@app.route('/Alabama/',methods=['GET','POST'])
 def index():
 	if request.method == 'GET':
 		return render_template('index.html')
+	else:
+		output_file("lines.html",title='stockdata')
+		p = figure(title="Stock Information", x_axis_label = "Date", x_axis_type = 'datetime', y_axis_label = "Value")
 
 		
 if __name__ == '__main__':
