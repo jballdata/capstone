@@ -1,29 +1,72 @@
-<!doctype html>
-<title>Stock Display</title>
-<!--link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'-->
-<div class=page>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid grey;
+}
 
-	<h1>Input the stock ticker</h1>
-	<div class=metanav>
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
 
-    		{{question}}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
 
-    		<h4>
-      			<form id='answerform_lulu' method='post' action='next_lulu' >
-        			<p>
-          				Answer: <br />
-					Choose stock ticker ID:
-          				<input type='text' name='input_ticker'/>
-					Choose start date (format: yyyy-mm-dd):
-					<input type='text' name='input_start'/>
-					Choose end date (format: yyyy-mm-dd):
-					<input type='text' name='input_end'/>
-        </p>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
 
-        <p>
-          <input type='submit' value='NextButton_lulu' />
-        </p>
-      </form>
-    </h4>
-  </div>
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Counter Demographic Voting Trends</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Map</a></li>
+    <li><a href="#">Outliers</a></li>
+    <li><a href="#">About Jordan</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>States</h1>
+  <p>Hello! My name is Jordan and this is my capstone project for The Data Incubator</p>
+  <p>Below you will choose a state, then you may choose a district to examine. Later versions of this site will allow for more options.</p>
+</article>
+
+<iframe src="https://createaclickablemap.com/map.php?&id=67786&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
+<script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>	
+	
+<footer>Base Layout from W3Schools.com</footer>
+
 </div>
+
+</body>
+</html>
