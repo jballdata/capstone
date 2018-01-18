@@ -22,7 +22,7 @@ def index():
 # 		p.line(data.index.values.tolist(),data['Open'].values.tolist(),legend = "line",line_width = 2,line_color = "blue")
 # 		p.line(data.index.values.tolist(),data['Close'].values.tolist(),legend = "line",line_width = 2,line_color = "red")
 		
-@app.route('/Alabama')
+@app.route('/Alabama/')
 def alabama():
 	return render_template('index.html')
 		
