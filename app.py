@@ -24,7 +24,7 @@ def index():
 # 		p.line(data.index.values.tolist(),data['Close'].values.tolist(),legend = "line",line_width = 2,line_color = "red")
 		
 @app.route('/Alabama',methods=['GET','POST'])
-def index():
+def Alabama():
 	if request.method == 'GET':
 		return render_template('index.html')
 		
