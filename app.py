@@ -9,7 +9,7 @@ app.vars={}
 
 @app.route('/')
 def index():
-	return render_template('input.html')
+	return render_template('temp.html')
 # 	else:
 # 		app.vars['ticker'] = request.form['input_ticker']
 # 		app.vars['start'] = request.form['input_start']
