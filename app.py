@@ -24,7 +24,7 @@ def index():
 		
 @app.route('/Alabama')
 def alabama():
-	return render_template('index.html')
+	return render_template('index_two.html')
 		
 if __name__ == '__main__':
   app.run(port=33507, debug = True)
