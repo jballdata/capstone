@@ -19,6 +19,8 @@ $gray-600: #868e96;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
+$bluegrey: #53575e
+$custblue: #093999
 $black: #000000;
 $blue: #007bff;
 $indigo: #6610f2;
@@ -34,8 +36,8 @@ $cyan: #17a2b8;
 
 // Theme Colors
 
-$primary: $black;
-$secondary: $gray-600;
+$primary: $bluegrey;
+$secondary: $custblue;
 $success: $green;
 $info: $cyan;
 $warning: $yellow;
