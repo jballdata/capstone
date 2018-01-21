@@ -78,7 +78,7 @@ section{
     width: 120px;
 }
 .card-outline-primary{
-    border: solid 1px #512DA8;
+    border: solid 1px #093999;
 }
 .sticky-navigation{
     top: -100px;
@@ -87,23 +87,23 @@ section{
 * Background Colors
 ================================================*/
 .bg-texture{
-    background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
-    background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
-    background:linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 100%, transparent 33%);
+    background:-webkit-linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 100%, transparent 33%);
+    background:-moz-linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 100%, transparent 33%);
+    background:linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 100%, transparent 33%);
 }
 .bg-texture-collage{
-    background:-webkit-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:-moz-linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
-    background:linear-gradient(-45deg, #ffb300 33%, transparent 0%),
-        linear-gradient(-45deg, #512DA8 67%, transparent 33%),
-        linear-gradient(-45deg, #ffb300 100%, transparent 67%);
+    background:-webkit-linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 67%, transparent 33%),
+        linear-gradient(-45deg, #093999 100%, transparent 67%);
+    background:-moz-linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 67%, transparent 33%),
+        linear-gradient(-45deg, #093999 100%, transparent 67%);
+    background:linear-gradient(-45deg, #093999 33%, transparent 0%),
+        linear-gradient(-45deg, #53575e 67%, transparent 33%),
+        linear-gradient(-45deg, #093999 100%, transparent 67%);
 }
 .bg-alt {
     background-color: #fff;
