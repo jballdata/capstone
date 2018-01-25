@@ -52,9 +52,9 @@ def index():
 # 		p.line(data.index.values.tolist(),data['Open'].values.tolist(),legend = "line",line_width = 2,line_color = "blue")
 # 		p.line(data.index.values.tolist(),data['Close'].values.tolist(),legend = "line",line_width = 2,line_color = "red")
 		
-@app.route('/Alabama')
-def alabama():
-	return render_template('index.html')
+#@app.route('/Alabama')
+#def alabama():
+	#return render_template('index.html')
 	
 if __name__ == '__main__':
   app.run(port=33507, debug = True)
