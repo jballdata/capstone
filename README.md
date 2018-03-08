@@ -1,6 +1,6 @@
 # Counter Demographic Voting Trends
 
-This project is still under construction; a rough model has been set up for Alabama's District 2-- this can be seen by clicking on Alabama on the app (jball-capstone.herokuapp.com). The full model will be up within four weeks (10 March 2018).
+This project is still under construction; a rough model has been set up for Alabama's District 2-- this can be seen by clicking on Alabama on the app (jball-capstone.herokuapp.com).
 
 
 ## Purpose
